@@ -126,16 +126,34 @@ document.addEventListener("DOMContentLoaded", () => {
     const backBtn = document.getElementById("back-btn");
 
     const eventImages = {
-        annual: [
-
+        Teachers_Day: ["https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861639/img21_ke8j8g.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861623/img1_tigmc3.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861622/img2_krycwn.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861624/img8_i8xyc6.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861624/img9_y4mizd.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861623/img3_ry2uat.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861624/img4_a0r1pe.jpg ",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861627/img5_i6tv0c.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861628/img10_zbeqdg.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861628/img6_fqswqe.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861630/img11_khxj8l.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861631/img13_cllput.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861630/img12_zleart.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861634/img16_r0a0az.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861634/img15_w7oaus.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861635/img14_qgoskt.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861636/img20_sgl9gl.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861635/img18_ijagxi.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861636/img19_j5zwmi.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861637/img22_ojffoc.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861640/img23_nnqtrr.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861639/img17_krbhbj.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861641/img25_pqldxk.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861641/img27_fkam5a.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861639/img26_rm5q35.jpg",
+            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861640/img24_eqxvuq.jpg",
         ],
-        sports: [
 
-        ],
-        science: [
-            "https://source.unsplash.com/random/600x800?science",
-
-        ]
     };
 
     // Open Gallery View
