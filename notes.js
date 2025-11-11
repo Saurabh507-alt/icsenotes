@@ -127,9 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const eventImages = {
         annual: [
-            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762792643/samples/ecommerce/analog-classic.jpg",
-            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762792646/samples/bike.jpg",
-            "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762792645/samples/landscapes/girl-urban-view.jpg",
+
         ],
         sports: [
 
