@@ -124,6 +124,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const galleryView = document.getElementById("gallery-view");
     const galleryGrid = document.getElementById("gallery-grid");
     const backBtn = document.getElementById("back-btn");
+    const CLOUD_NAME = "dw7fvcoxu";
+    const tagEvents = {
+        SUPW2025: "SUPW2025"
+    };
 
     const eventImages = {
         Teachers_Day: ["https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861639/img21_ke8j8g.jpg",
@@ -154,22 +158,60 @@ document.addEventListener("DOMContentLoaded", () => {
             "https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762861640/img24_eqxvuq.jpg",
         ],
 
+
+
+
+
+
+
+
     };
 
     // Open Gallery View
     eventCards.forEach(card => {
-        card.addEventListener("click", () => {
+        card.addEventListener("click", async () => {
             const eventKey = card.getAttribute("data-event");
-            const images = eventImages[eventKey] || [];
 
-            galleryGrid.innerHTML = images
-                .map(src => `<img src="${src}" alt="${eventKey} photo">`)
-                .join("");
+            if (tagEvents[eventKey]) {
+                const tag = tagEvents[eventKey];
+                const jsonURL = `https://res.cloudinary.com/${CLOUD_NAME}/image/list/${tag}.json`;
+
+                try {
+                    const response = await fetch(jsonURL);
+                    const data = await response.json();
+
+
+
+                    galleryGrid.innerHTML = data.resources
+                        .map(img => {
+                            const url = `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${img.public_id}.${img.format}`;
+                            return `<img src="${url}" alt="${eventKey} photo">`;
+                        })
+                        .join("");
+
+                } catch (error) {
+                    galleryGrid.innerHTML = "<p>Failed to load images.</p>";
+                }
+
+
+            } else {
+                // DEFAULT LOCAL IMAGES
+                const images = eventImages[eventKey] || [];
+
+                galleryGrid.innerHTML = images
+                    .map(src => `<img src="${src}" alt="${eventKey} photo">`)
+                    .join("");
+            }
 
             eventList.classList.add("hidden");
             galleryView.classList.add("visible");
         });
     });
+
+
+
+
+
 
     // Back Button
     backBtn.addEventListener("click", () => {
