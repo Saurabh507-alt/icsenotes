@@ -1,6 +1,15 @@
 // Data for Notes 
 const subjects = [
     {
+        title: "PYQ",
+        description: "Prevoius year questions",
+        chapters: [
+            { name: "pre boards 2025", file: "https://drive.google.com/file/d/1VwecUWn449qh-W-GpytKinHCX1Cl2SSP/view?usp=drivesdk" },
+
+        ]
+    },
+
+    {
         title: "Physics",
         description: "click to view chapter wise notes",
         chapters: [
@@ -42,7 +51,8 @@ const subjects = [
             { name: "chapter 4", file: "" },
 
         ]
-    }
+    },
+
 ];
 const notesGrid = document.getElementById('notes-grid');
 
@@ -85,7 +95,7 @@ function renderChapters(subject) {
             if (chapter.file && chapter.file.trim() !== "") {
                 window.open(chapter.file, '_blank');
             } else {
-                showMessage(`Notes for "${chapter.name}" will be uploaded soon 📚`);
+                showMessage(` "${chapter.name}" will be uploaded soon 📚`);
             }
         });
         notesGrid.appendChild(card);
