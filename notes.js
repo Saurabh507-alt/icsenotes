@@ -268,3 +268,40 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 renderNotes();
 renderPhotos();
 renderFiles();
+
+
+const form = document.getElementById("contact-form");
+const notification = document.getElementById("form-notification");
+
+form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch(form.action, {
+            method: "POST",
+            body: formData
+        });
+
+        if (response.ok) {
+            showNotification("✅ Message sent successfully!");
+            form.reset();
+        } else {
+            showNotification("❌ Failed to send message. Try again.");
+        }
+
+    } catch (error) {
+        showNotification("⚠️ Network error. Please try later.");
+    }
+});
+
+function showNotification(message) {
+    notification.textContent = message;
+    notification.classList.remove("hidden");
+
+    setTimeout(() => {
+        notification.classList.add("hidden");
+    }, 3000);
+}
+
