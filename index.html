@@ -4,40 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notesforicse</title>
+    <title>ICSE Notes</title>
     <link rel="stylesheet" href="notes.css">
 </head>
 
 <body>
+
     <header>
-        <h1 id="site-title">ICSE notes</h1> <!-- Change [Your Name] to your name -->
+        <h1 id="site-title">ICSE Notes</h1>
         <nav>
             <button class="nav-btn active" data-section="home">Home</button>
             <button class="nav-btn" data-section="notes">Notes</button>
             <button class="nav-btn" data-section="photos">Photos</button>
-            <button class="nav-btn" data-section="devinfo">Developer's Info</button>
             <button class="nav-btn" data-section="contact">Contact</button>
         </nav>
-
     </header>
 
     <main>
+
         <!-- Home Section -->
         <section id="home" class="section active">
             <div class="overlay-text">
                 <h1>Welcome to ICSE Notes</h1>
-                <h2>We offer:-</h2>
+                <h2>We offer:</h2>
                 <ul>
                     <li>Notes of various subjects</li>
-                    <li>Covering all key topic</li>
-                    <li>Unforgatable captured moments</li>
+                    <li>Coverage of all key topics</li>
+                    <li>Unforgettable captured moments</li>
                 </ul>
-                <h3>
-                    Moto:-
-                </h3>
-                <p>
-                    Learn joyfully to serve humanity
-                </p>
+                <h3>Motto:</h3>
+                <p>Learn joyfully to serve humanity</p>
             </div>
         </section>
 
@@ -47,24 +43,21 @@
             <div id="notes-grid" class="grid"></div>
         </section>
 
-
-
-
         <!-- Photos Section -->
         <section id="photos" class="section">
-
             <h2>School Events</h2>
 
-            <!-- Event List View -->
+            <!-- Event List -->
             <div id="event-list" class="event-list">
                 <div class="event-card" data-event="Teachers_Day">
                     <span class="abbr">TD</span>
                     <h3>Teachers Day</h3>
                     <span class="arrow">→</span>
                 </div>
+
                 <div class="event-card" data-event="SUPW2025">
                     <span class="abbr">SP</span>
-                    <h3>SUPW2025</h3>
+                    <h3>SUPW 2025</h3>
                     <span class="arrow">→</span>
                 </div>
             </div>
@@ -76,37 +69,35 @@
             </div>
         </section>
 
-
-
-        <!-- Devloper section -->
-
-
         <!-- Contact Section -->
         <section id="contact" class="section">
             <h2>Contact Me</h2>
-           
-                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" >
-  <input type="hidden" name="access_key" value="d2660398-3816-45c1-ace9-9bf69a24e7c5">
-                
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="message" placeholder="Your Message" required></textarea>
+
+            <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+                <input type="hidden" name="access_key" value="d2660398-3816-45c1-ace9-9bf69a24e7c5">
+
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <textarea name="message" required></textarea>
+
                 <button type="submit">Send Message</button>
             </form>
         </section>
 
-        <!-- Lightbox for Photos -->
+        <!-- Lightbox -->
         <div id="lightbox" class="lightbox">
             <span id="close-lightbox">&times;</span>
             <img id="lightbox-img" src="" alt="">
         </div>
+
     </main>
 
     <footer>
-        <p>&copy; Saurabh Mehta — Made with ❤️ for students.</p> <!-- Change [Your Name] to your name -->
+        <p>&copy; Saurabh Mehta — Made with ❤️ for students.</p>
     </footer>
 
     <script src="notes.js"></script>
+
 </body>
 
 </html>
