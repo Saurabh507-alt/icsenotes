@@ -4,9 +4,9 @@ const subjects = [
         title: "PYQ",
         description: "Prevoius year questions",
         chapters: [
-            { name: "pre boards 2025", file: "https://drive.google.com/file/d/1VwecUWn449qh-W-GpytKinHCX1Cl2SSP/view?usp=drivesdk" },
+            { name: "pre boards 2024_25", file: "https://drive.google.com/file/d/1VwecUWn449qh-W-GpytKinHCX1Cl2SSP/view?usp=drivesdk" },
 
- { name: "class 9pyq", file: "https://drive.google.com/file/d/17fV5ryZHUr7t3WFO6t6Ko3k91hOOaItg/view?pli=1" },
+ { name: "class-9_finals 2024-25", file: "https://drive.google.com/file/d/17fV5ryZHUr7t3WFO6t6Ko3k91hOOaItg/view?pli=1" },
         ]
     },
 
