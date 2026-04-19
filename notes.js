@@ -12,7 +12,7 @@ const subjects = [
     {
         title:"HIS_PYQ",
         description:"his pyq",
-        list:[
+        chapters:[
             { name:"",file:""},
 
             ]
