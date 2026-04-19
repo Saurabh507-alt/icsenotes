@@ -17,49 +17,7 @@ const subjects = [
 
             ]
     },
-    {
-        title: "Physics",
-        description: "click to view chapter wise notes",
-        chapters: [
-            { name: "chapter 1", file: "" },
-            { name: "chapter 2", file: "" },
-            { name: "chapter 3", file: "" },
-            { name: "chapter 4", file: "" },
-        ]
-    },
-    {
-        title: "Chemistry",
-        description: "click to view chapter wise notes",
-        chapters: [
-            { name: "chapter 1", file: "" },
-            { name: "chapter 2", file: "" },
-            { name: "chapter 3", file: "" },
-            { name: "chapter 4", file: "" },
-
-        ]
-    },
-    {
-        title: "Mathematics",
-        description: "click to view chapter wise notes",
-        chapters: [
-            { name: "chapter 1", file: "" },
-            { name: "chapter 2", file: "" },
-            { name: "chapter 3", file: "" },
-            { name: "chapter 4", file: "" },
-
-        ]
-    },
-    {
-        title: "Biology",
-        description: "click to view chapter wise notes",
-        chapters: [
-            { name: "chapter 1", file: "" },
-            { name: "chapter 2", file: "" },
-            { name: "chapter 3", file: "" },
-            { name: "chapter 4", file: "" },
-
-        ]
-    },
+ 
 
 ];
 const notesGrid = document.getElementById('notes-grid');
