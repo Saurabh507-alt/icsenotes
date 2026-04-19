@@ -9,15 +9,7 @@ const subjects = [
              { name: "class-9_finals 2024-25", file: "https://drive.google.com/file/d/17fV5ryZHUr7t3WFO6t6Ko3k91hOOaItg/view?pli=1" },
         ]
     },
-    {
-        title:"HIS_PYQ",
-        description:"his previous year questions",
-        chapters:[
-                   
-            {name:"pre boards,file:""},
-                   
-        ]
-    },
+  
     
 
     {
