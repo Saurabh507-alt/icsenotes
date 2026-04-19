@@ -12,10 +12,12 @@ const subjects = [
     {
         title:"HIS_PYQ",
         chapters:[
-                   {
-                      name:""
-                   }
+                   
+            {name:"pre boards,file:""},
+                   
+            ]
     },
+    
 
     {
         title: "Physics",
