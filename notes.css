@@ -283,7 +283,7 @@ footer {
     /* <-- update with your actual image path */
     background-size: cover;
     overflow: hidden;
-    background-position: center -80px;
+    background-position: center -160px;
     background-repeat: no-repeat;
 
     min-height: 100vh;
