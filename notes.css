@@ -302,31 +302,12 @@ footer {
 
     .overlay-text h1 {
         font-size: 3rem;
-        margin-bottom: 1rem;
+        text-align: center;
     }
 
-    .overlay-text h2 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
+   
 
-    .overlay-text h3 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .overlay-text p {
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .overlay-text ul {
-        list-style: disc inside;
-        font-size: 1.2rem;
-        padding-left: 0;
-        margin: 0 auto;
-        max-width: 400px;
-    }
+   
 
     /* Responsive adjustments */
     @media (max-width: 600px) {
@@ -338,9 +319,7 @@ footer {
             font-size: 2rem;
         }
 
-        .overlay-text ul {
-            font-size: 1rem;
-        }
+        
     }
 }
 
