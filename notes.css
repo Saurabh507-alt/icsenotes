@@ -282,7 +282,8 @@ footer {
     background-image: url('https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762793848/background_slgxbw.jpg');
     /* <-- update with your actual image path */
     background-size: cover;
-    background-position: center;
+    overflow: hidden;
+    background-position: center -80px;
     background-repeat: no-repeat;
 
     min-height: 100vh;
