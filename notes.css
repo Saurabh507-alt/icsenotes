@@ -279,17 +279,12 @@ footer {
 
 /* Home Section Background */
 #home {
-    background-image: url('https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762793848/background_slgxbw.jpg');
-    /* <-- update with your actual image path */
-    background-size: cover;
-    overflow: hidden;
-    background-position: center -160px;
-    background-repeat: no-repeat;
-
-    min-height: 100vh;
+   
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762793848/background_slgxbw.jpg') center center/cover no-repeat;
+        url('https://res.cloudinary.com/dw7fvcoxu/image/upload/v1762793848/background_slgxbw.jpg') 
+        center -160px /cover no-repeat;
     height: 100vh;
+    overflow: hidden;
 
     .overlay-text {
         color: white;
