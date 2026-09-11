@@ -13,7 +13,7 @@ const subjects = [
         title:"HIS_PYQ",
         description:"his pyq",
         chapters:[
-            { name:"",file:""},
+            { name:"cl-12(25-26)Term-1 ",file:"https://drive.google.com/file/d/1m7-Ee7lX63lANOe_MuW97RPZ34pgyZvx/view?usp=drivesdk"},
 
             ]
     },
