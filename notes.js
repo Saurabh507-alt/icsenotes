@@ -14,9 +14,7 @@ const subjects = [
         description:"his pyq",
         chapters:[
             { name:"cl-12(25-26)Term-1 ",file:"https://drive.google.com/file/d/1m7-Ee7lX63lANOe_MuW97RPZ34pgyZvx/view?usp=drivesdk"},
-
-            ]
-          chapters:[
+          
             { name:"cl-11(25-26)Term-1 physics ",file:"https://drive.google.com/file/d/1giwqbaO-x-WR5YW4fbYPOnuClZwV76Jt/view?usp=drivesdk"},
 
             ]
